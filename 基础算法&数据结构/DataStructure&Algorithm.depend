@@ -1,0 +1,31 @@
+# depslib dependency file v1.0
+1535851251 source:e:\c&c++\datastructure&algorithm\basicsort\selectionsort\selectionsort.cpp
+	<iostream>
+	"Student.h"
+	"sortTestHelper.h"
+
+1535848727 e:\c&c++\datastructure&algorithm\basicsort\selectionsort\student.h
+	<iostream>
+	<string>
+
+1535851156 e:\c&c++\datastructure&algorithm\basicsort\selectionsort\sorttesthelper.h
+	<iostream>
+	<ctime>
+	<cassert>
+	<stdlib.h>
+
+1535851251 source:e:\c&c++\datastructure&algorithm\ª˘¥°≈≈–Ú\—°‘Ò≈≈–Ú\selectionsort.cpp
+	<iostream>
+	"Student.h"
+	"sortTestHelper.h"
+
+1535848727 e:\c&c++\datastructure&algorithm\ª˘¥°≈≈–Ú\—°‘Ò≈≈–Ú\student.h
+	<iostream>
+	<string>
+
+1535851156 e:\c&c++\datastructure&algorithm\ª˘¥°≈≈–Ú\—°‘Ò≈≈–Ú\sorttesthelper.h
+	<iostream>
+	<ctime>
+	<cassert>
+	<stdlib.h>
+
