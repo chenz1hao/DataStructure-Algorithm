@@ -32,9 +32,11 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
-		<Unit filename="BasicSort/SelectionSort/SelectionSort.cpp" />
-		<Unit filename="BasicSort/SelectionSort/SortTestHelper.h" />
-		<Unit filename="BasicSort/SelectionSort/Student.h" />
+		<Unit filename="基础排序/main.cpp" />
+		<Unit filename="基础排序/共用头/SortTestHelper.h" />
+		<Unit filename="基础排序/共用头/Student.h" />
+		<Unit filename="基础排序/插入排序/InsertionSort.h" />
+		<Unit filename="基础排序/选择排序/SelectionSort.h" />
 		<Extensions>
 			<code_completion />
 			<envvars />
