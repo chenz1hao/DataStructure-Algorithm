@@ -23,7 +23,7 @@ By ChenZihao ichenzihao@Gmail.com*
 
 #### 2018/9/4
  冒泡排序法：冒泡排序的在各种情况下性能都比较低，几乎不使用；时间复杂度明显的O(n^2)<br/>
- 希尔排序法：又叫增量递减排序，其实就是插入排序的优化，因为插入排序在几乎有序的数组下排序性能会相当好，所以希尔排序就是在对其不断地进行有序化递进从而充分发挥插入排序的优势。
+ 希尔排序法：又叫递减增量排序，其实就是插入排序的优化，因为插入排序在几乎有序的数组下排序性能会相当好，所以希尔排序就是在对其不断地进行有序化递进从而充分发挥插入排序的优势。希尔排序每趟的增量可以自己指定，目前还没有一个完美的方案指定增量的变化，一般都是 n = n / 2，但只要保证最后一趟希尔排序的步长增量为1即可。
  <br/>
   ![image](https://github.com/czhiemma/DataStructure-Algorithm/blob/master/READMEPIC/ShellSortTest.png)
   ![image](https://github.com/czhiemma/DataStructure-Algorithm/blob/master/READMEPIC/BubbleSortTest.png)
