@@ -2,7 +2,7 @@
 *这个库是个人为了弥补学习数据结构&算法时理论多 && 练习少的缺点，故巩固复习一些基础的数据结构与算法的代码实现 
 By ChenZihao ichenzihao@Gmail.com*
 
-**编译环境：CodeBlocks 直接使用CodeBlocks打开DataStructure&Algorithm.cbp就可以导入，其他如VisualStudio、CLion等IDE未测试**
+**请使用VisualStudio2015打开DataStructure_Algorithm_VS2015.sln即可导入项目**
 -----------------
 #### 2018/8/31
  选择排序法，创建SortTestHelper.h头文件，其中包括对待排序数组进行随机生成(generatedRandomArray)、对排序算法结果正确性验证(isSorted)、对排序算法性能测试(testSort)以及对数组的打印(printArray)。根据对各数量级的数组进行排序可以明显看出该排序算法时间复杂度为：O(n^2)
@@ -18,3 +18,13 @@ By ChenZihao ichenzihao@Gmail.com*
  <br/>
   ![image](https://github.com/czhiemma/DataStructure-Algorithm/blob/master/READMEPIC/Selection&InsertionTest.png)
   ![image](https://github.com/czhiemma/DataStructure-Algorithm/blob/master/READMEPIC/NearlySortTest.png)
+
+-----------------
+
+#### 2018/9/4
+ 冒泡排序法：冒泡排序的在各种情况下性能都比较低，几乎不使用；时间复杂度明显的O(n^2)
+ 希尔排序法：又叫增量递减排序，其实就是插入排序的优化，因为插入排序在几乎有序的数组下排序性能会相当好，所以希尔排序就是在对其不断地进行有序化递进从而充分发挥插入排序的优势。
+ <br/>
+  ![image](https://github.com/czhiemma/DataStructure-Algorithm/blob/master/READMEPIC/ShellSortTest.png)
+  ![image](https://github.com/czhiemma/DataStructure-Algorithm/blob/master/READMEPIC/BubbleSortTest.png)
+  
