@@ -31,6 +31,9 @@
     <Filter Include="头文件\基本排序\希尔排序">
       <UniqueIdentifier>{910aaf01-9bda-400e-9fb7-aee8fa4c88ff}</UniqueIdentifier>
     </Filter>
+    <Filter Include="头文件\基本排序\归并排序">
+      <UniqueIdentifier>{c3afcdfd-0f3a-4f02-aa51-33453486032d}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -55,6 +58,9 @@
     </ClInclude>
     <ClInclude Include="ShellSort.h">
       <Filter>头文件\基本排序\希尔排序</Filter>
+    </ClInclude>
+    <ClInclude Include="mergeSorting.h">
+      <Filter>头文件\基本排序\归并排序</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

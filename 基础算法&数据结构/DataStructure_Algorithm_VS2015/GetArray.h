@@ -58,11 +58,10 @@ int* getRandomArray(int n, int rangeL, int rangeR) {
 }
 
 /*
-	生成几乎有序的数组（主要用于测试插入排序性能）
+	生成几乎有序的数组（主要用于测试排序性能）
 	n：数组长度
 	swapTime：任意两个元素的交换次数，用于打乱有序数组
 */
-template<typename T>
 int* getNearlySortArray(int n, int swapTimes) {
 	int* arr = new int[n];
 
@@ -70,7 +69,8 @@ int* getNearlySortArray(int n, int swapTimes) {
 		arr[i] = i;
 	}
 
-	srand(time(NULL));
+	srand((unsigned int)time(NULL));
+
 	for (int i = 0; i < swapTimes; i++) {
 		int randomX = rand() % n;
 		int randomY = rand() % n;

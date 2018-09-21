@@ -56,8 +56,22 @@ void InsertionSortTwo(T arr[], int n) {
 			//for (j = i; j > 0 && arr[j - 1] > temp; j--) {
 			//	arr[j] = arr[j - 1];
 			//}
-			arr[j-1] = temp;
+			arr[j - 1] = temp;
 		}
+	}
+
+	return;
+}
+
+template<typename T>
+void insertionSortForMergeSort(T arr[], int l, int r) {
+	for (int i = l + 1; i <= r; i++) {
+		T e = arr[i];
+		int j;
+		for (j = i; j > l && arr[j - 1] > e; j--) {
+			arr[j] = arr[j - 1];
+		}
+		arr[j] = e;
 	}
 
 	return;

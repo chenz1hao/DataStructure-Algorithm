@@ -148,6 +148,7 @@
     <ClInclude Include="BubbleSort.h" />
     <ClInclude Include="GetArray.h" />
     <ClInclude Include="InsertionSort.h" />
+    <ClInclude Include="mergeSorting.h" />
     <ClInclude Include="SelectionSort.h" />
     <ClInclude Include="ShellSort.h" />
     <ClInclude Include="SortTest.h" />
