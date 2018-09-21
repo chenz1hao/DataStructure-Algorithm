@@ -28,3 +28,12 @@ By ChenZihao ichenzihao@Gmail.com*
   ![image](https://github.com/czhiemma/DataStructure-Algorithm/blob/master/READMEPIC/ShellSortTest.png)
   ![image](https://github.com/czhiemma/DataStructure-Algorithm/blob/master/READMEPIC/BubbleSortTest.png)
   
+-----------------
+
+#### 2018/9/21
+练习了递归的归并排序(MergeSort)，并优化了其“分”和“治”的条件从而对一组几乎有序的数组排序效率也得到了提升。
+ <br/>
+![image](https://github.com/czhiemma/DataStructure-Algorithm/blob/master/READMEPIC/MergeSortOptimize.png)
+
+-----------------
+  
